@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="icons/style.css">
+    <link rel="icon" href="images/yt-premium.svg">
+    <title>Youtube - video</title>
+</head>
+<body class="scroll video-page">
+    <!-- start box header -->
+    <header class="main-header">
+        <!-- box left -->
+        <div class="place-center">
+            <button class="start icon-menu action-button"></button>
+            <a href="/">
+                <img src="images/logo.svg" class="logo" alt="Logo de YouTube">
+            </a>
+        </div>
+        <!-- box center -->
+        <div class="middle place-center">
+            <form class="form-search place-center" action="#">
+                <input type="search" placeholder="Buscar" class="input">
+                <button data-tooltip="Buscar" 
+                    class="submit icon-search">
+                </button>
+            </form>
+            <button data-tooltip="Haz búsqueda por voz"
+                class="icon-mic action-button">
+            </button>
+        </div>
+        <!-- box right -->
+        <div class="place-center buttons-container">
+            <button data-tooltip="Crear" 
+                class="icon-video-call action-button">
+            </button>
+            <button data-tooltip="Notifiaciones" 
+                class="icon-notifications action-button">
+            </button>
+            <div class="user">
+                <div class="user-photo">
+                    <img src="images/user-photo.jpg" class="image" alt="Foto de perfil">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- end box header -->
+
+    <!-- start box main -->
+    <div class="video-page-grid">
+        <main class="video-colum">
+            <div class="video-player">
+                <iframe class="video" src="https://www.youtube.com/embed/Y2WlJJ3Jjlk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <h1 class="title">Mino Criptomonedas Con Un Móvil De $100</h1>
+                <p class="video-information">
+                    <span>120.00 visualizaciones</span>
+                    <span>30 ago 2022</span>
+                </p>
+                <div class="actions">
+                    <section class="video-play-information flex">
+                        <div class="user-photo">
+                            <img src="https://i.pravatar.cc/100" class="image" alt="Foto de perfil">
+                        </div>
+                        <div class="content">
+                            <div class="header flex">
+                                <div>
+                                    <a href="#" class="channel-name" data-tooltip="Edteam">Stanislas Mateus</a>
+                                    <p class="subs-cout">10.800 suscriptores</p>
+                                </div>
+                                <button class="button">Suscribirme</button>
+
+                            </div>
+                        </div>
+                    </section>
+
+                    <div class="buttons-container">
+                        <button data-tooltip="Me gusta este video"
+                         class="action-button has-text">
+                            <span class="icon icon-like-video"></span>
+                            <span class="text">26.233</span>
+                        </button>
+                        <button data-tooltip="No gusta este video"
+                         class="action-button has-text">
+                            <span class="icon icon-dislike-video"></span>
+                            <span class="text">No me gusta</span>
+                        </button>
+                        <button data-tooltip="Compartir"
+                         class="action-button has-text ">
+                            <span class="icon icon-share"></span>
+                            <span class="text">Compartir</span>
+                        </button>
+                        <button data-tooltip="Descargar"
+                         class="action-button has-text">
+                            <span class="icon icon-dowload"></span>
+                            <span class="text">Descargar</span>
+                        </button>
+                        <button class="action-button icon icon-options-hrztl"></button>
+                    </div>
+                </div>
+                <p class="caption rows-text-3">Intento minar criptomonedas con un movil  de $100 y consigo ganar dinero. Descubre cómo minar criptomonedas con casi cualquier movil.
+                    En este vídeo me he propuesto descubrir cuánto dinero se puede ganar minando criptomonedas con un móvil barato. He comprado un móvil barato ($100) y un móvil caro ($700) y los he puesto a minar criptomonedas para así ver la rentabilidad real de este tipo de minería. En el vídeo también intento explicar de forma sencilla cual ha sido el proceso que he seguido para poder minar con casi cualquier móvil. Alguno de los enlaces de este vídeo son enlaces de afiliado.
+                </p>
+                <button class="action-button has-text more-text">
+                    ...más
+                </button>
+            </div>
+            
+            <section class="comments-section">
+                <header class="comments-information buttons-container">
+                    <p>520 comentarios</p>
+                    <button class="action-button has-text">
+                        <span class="icon icon-order"></span>
+                        <span class="upper-case">odenar por</span>
+                    </button>
+                </header>
+                <div class="comment-form flex">
+                    <div class="user-photo">
+                        <img src="images/user-photo.jpg" class="image" alt="Foto de perfil">
+                    </div>
+                    <div class="form">
+                        <div class="input" contenteditable></div>
+                        <div class="buttons-container">
+                            <button class="button link">Cancelar</button>
+                            <button class="button" disabled>Comentar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="comments-grid" id="comments-grid">
+                    <!-- Aquí se cargan los comentarios -->
+                </div>
+
+            </section>
+
+        </main>
+        <!-- start box videos recomendados -->
+        <aside class="cards-sidevar" id="cards-sidevar">
+            <!-- Aquí se cargan los article de los videos de sugerencia -->
+        </aside>
+        <!-- end box videos recomendados -->
+    </div>
+    <!-- end box main -->
+
+    <script src="js/comment-template.js" type="module"></script>
+    <script src="js/card-sidebar-template.js" type="module"></script>
+    
+</body>
+</html>

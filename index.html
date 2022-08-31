@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="icons/style.css">
+    <link rel="icon" href="images/yt-premium.svg">
+    <title>YouTube clone</title>
+</head>
+<body class="scroll">
+    <!-- start box header -->
+    <header class="main-header">
+        <!-- box left -->
+        <div class="place-center">
+            <button class="start icon-menu action-button"></button>
+            <a href="#">
+                <img src="images/logo.svg" class="logo" alt="Logo de YouTube">
+            </a>
+        </div>
+        <!-- box center -->
+        <div class="middle place-center">
+            <form class="form-search place-center" action="#">
+                <input type="search" placeholder="Buscar" class="input">
+                <button data-tooltip="Buscar" 
+                    class="submit icon-search">
+                </button>
+            </form>
+            <button data-tooltip="Haz búsqueda por voz"
+                class="icon-mic action-button">
+            </button>
+        </div>
+        <!-- box right -->
+        <div class="place-center buttons-container">
+            <button data-tooltip="Crear" 
+                class="icon-video-call action-button">
+            </button>
+            <button data-tooltip="Notifiaciones" 
+                class="icon-notifications action-button">
+            </button>
+            <div class="user">
+                <div class="user-photo">
+                    <img src="images/user-photo.jpg" class="image" alt="Foto de perfil">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- end box header -->
+
+    <!-- start box sidebar -->
+    <div class="main-sidebar scroll">
+        <nav class="main-nav">
+            <ul>
+
+                <li>
+                    <a href="#" class="link is-active">
+                        <span class="icon icon-home"></span>
+                        <span>Inicio</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="link">
+                        <span class="icon icon-explore"></span>
+                        <span>Explorar</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="link">
+                        <span class="icon icon-shorts"></span>
+                        <span>Shorts</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="link">
+                        <span class="icon icon-suscriptions"></span>
+                        <span>Suscripciones</span>
+                    </a>
+                </li>
+
+            </ul>
+
+            <hr/>
+
+            <ul>
+
+                <li>
+                    <a href="#" class="link">
+                        <span class="icon icon-library"></span>
+                        <span>Biblioteca</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="link">
+                        <span class="icon icon-historic"></span>
+                        <span>Historial</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="link">
+                        <span class="icon icon-see-later"></span>
+                        <span>Ver más tarde</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="link">
+                        <span class="icon icon-like"></span>
+                        <span>Videos que me gustan</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="link">
+                        <span class="icon icon-expand-more"></span>
+                        <span>Mostrar más</span>
+                    </a>
+                </li>
+
+            </ul>
+
+            <hr/>
+
+            <h4 class="nav-title">Suscripciones</h4>
+            <ul>
+                <li>
+                    <a href="#" class="link in-live">
+                        <div class="user-photo">
+                            <img src="https://i.pravatar.cc/100?img=1" class="image" alt="Foto de perfil">
+                        </div>
+                        <span>Flem Preston</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" class="link">
+                        <div class="user-photo">
+                            <img src="https://i.pravatar.cc/100?img=2" class="image" alt="Foto de perfil">
+                        </div>
+                        <span>Timmi Scholler</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" class="link new-video">
+                        <div class="user-photo">
+                            <img src="https://i.pravatar.cc/100?img=3" class="image" alt="Foto de perfil">
+                        </div>
+                        <span>Mylo Gerg</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="link new-video">
+                        <div class="user-photo">
+                            <img src="https://i.pravatar.cc/100?img=4" class="image" alt="Foto de perfil">
+                        </div>
+                        <span>Nellie Levinge</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" class="link">
+                        <span class="icon icon-expand-more"></span>
+                        <span>Mostrar 47 más</span>
+                    </a>
+                </li>
+
+            </ul>
+
+            <hr/>
+
+            <h4 class="nav-title">Explorar</h4>
+            <ul>
+                <li>
+                    <a href="#" class="link">
+                        <span class="icon icon-videogame"></span>
+                        <span>Videojuegos</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="link">
+                        <span class="icon icon-idea"></span>
+                        <span>Aprendizaje</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="link">
+                        <span class="icon icon-spaorts"></span>
+                        <span>Deportes</span>
+                    </a>
+                </li>
+                
+            </ul>
+
+            <hr/>
+            <h4 class="nav-title">Más de YouTube</h4>
+
+            <ul>
+                <li>
+                    <a href="#" class="link">
+                        <div class="user-photo">
+                            <img src="images/yt-premium.svg" class="image" alt="Foto de perfil">
+                        </div>
+                        <span>YouTube Premium</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="link">
+                        <div class="user-photo">
+                            <img src="images/yt-studio.svg" class="image" alt="Foto de perfil">
+                        </div>
+                        <span>Creator Studio</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="link">
+                        <div class="user-photo">
+                            <img src="images/yt-music.svg" class="image" alt="Foto de perfil">
+                        </div>
+                        <span>YouTube Music</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="link">
+                        <div class="user-photo">
+                            <img src="images/yt-kids.svg" class="image" alt="Foto de perfil">
+                        </div>
+                        <span>YouTube Kids</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="link">
+                        <div class="user-photo">
+                            <img src="images/yt-tv.svg" class="image" alt="Foto de perfil">
+                        </div>
+                        <span>YouTube TV</span>
+                    </a>
+                </li>
+
+            </ul>
+
+            <hr/>
+
+            <ul>
+                <li>
+                    <a href="#" class="link">
+                        <span class="icon icon-settings"></span>
+                        <span>Configuraciones</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="link">
+                        <span class="icon icon-historic-complaints"></span>
+                        <span>Historial de denuncias</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="link">
+                        <span class="icon icon-help"></span>
+                        <span>Ayuda</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="link">
+                        <span class="icon icon-suggestions"></span>
+                        <span>Enviar sugerencias</span>
+                    </a>
+                </li>
+                
+            </ul>
+
+            <hr/>
+
+            <footer class="main-footer">
+                <div class="container">
+                    <a href="#" class="link-footer">Información</a>
+                    <a href="#" class="link-footer">Prensa</a>
+                    <a href="#" class="link-footer">Derechos de autor</a>
+                    <a href="#" class="link-footer">Contactar</a>
+                    <a href="#" class="link-footer">Creadores</a>
+                    <a href="#" class="link-footer">Publicidad</a>
+                    <a href="#" class="link-footer">Desarrolladores</a>
+                </div>
+
+                <div class="container">
+                    <a href="#" class="link-footer">Términos</a>
+                    <a href="#" class="link-footer">Privacidad</a>
+                    <a href="#" class="link-footer">Política y seguridad</a>
+                    <a href="#" class="link-footer">Cómo funciona YouTube</a>
+                    <a href="#" class="link-footer">Probar funciones nuevas</a>
+                </div>
+                <p class="copyright">Google 2022</p>
+            </footer>
+
+
+
+        </nav>
+    </div>
+    <!-- end box sidebar -->
+
+    <!-- start box main -->
+    <main class="card-grid" id="card-grid">
+
+        <!-- Aquí se cargan los video-card -->
+
+    </main>
+    <!-- end box main -->
+
+    <script src="js/card-template.js" type="module"></script>
+
+</body>
+</html>

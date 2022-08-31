@@ -1,0 +1,186 @@
+@font-face {
+  font-family: 'google-icon';
+  src:  url('fonts/google-icon.eot?iuzk5e');
+  src:  url('fonts/google-icon.eot?iuzk5e#iefix') format('embedded-opentype'),
+    url('fonts/google-icon.ttf?iuzk5e') format('truetype'),
+    url('fonts/google-icon.woff?iuzk5e') format('woff'),
+    url('fonts/google-icon.svg?iuzk5e#google-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'google-icon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-left:before {
+  content: "\e900";
+}
+.icon-arrow-right:before {
+  content: "\e901";
+}
+.icon-arrow-right-fill:before {
+  content: "\e902";
+}
+.icon-buy:before {
+  content: "\e903";
+}
+.icon-close:before {
+  content: "\e904";
+}
+.icon-close-fill:before {
+  content: "\e905";
+}
+.icon-dislike-video:before {
+  content: "\e906";
+}
+.icon-done-fill:before {
+  content: "\e907";
+}
+.icon-dot .path1:before {
+  content: "\e908";
+  color: rgb(0, 0, 0);
+}
+.icon-dot .path2:before {
+  content: "\e909";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-dot .path3:before {
+  content: "\e90a";
+  margin-left: -1em;
+  color: rgb(68, 68, 68);
+  opacity: 0.15;
+}
+.icon-dowload:before {
+  content: "\e90c";
+}
+.icon-expand-less:before {
+  content: "\e90d";
+}
+.icon-expand-less-fill:before {
+  content: "\e90e";
+}
+.icon-expand-more:before {
+  content: "\e90f";
+}
+.icon-explore:before {
+  content: "\e910";
+}
+.icon-help:before {
+  content: "\e911";
+}
+.icon-historic:before {
+  content: "\e912";
+}
+.icon-historic-complaints:before {
+  content: "\e913";
+}
+.icon-home:before {
+  content: "\e914";
+}
+.icon-idea:before {
+  content: "\e915";
+}
+.icon-library:before {
+  content: "\e916";
+}
+.icon-like:before {
+  content: "\e917";
+}
+.icon-like-video:before {
+  content: "\e918";
+}
+.icon-live:before {
+  content: "\e919";
+}
+.icon-live-play:before {
+  content: "\e91a";
+}
+.icon-location:before {
+  content: "\e91b";
+}
+.icon-menu:before {
+  content: "\e91c";
+}
+.icon-mic:before {
+  content: "\e91d";
+}
+.icon-notifications:before {
+  content: "\e91e";
+}
+.icon-options:before {
+  content: "\e91f";
+}
+.icon-options-fill:before {
+  content: "\e920";
+}
+.icon-options-hrztl:before {
+  content: "\e921";
+}
+.icon-order:before {
+  content: "\e922";
+}
+.icon-reload:before {
+  content: "\e923";
+}
+.icon-screen:before {
+  content: "\e90b";
+}
+.icon-search:before {
+  content: "\e924";
+}
+.icon-see-later:before {
+  content: "\e925";
+}
+.icon-settings:before {
+  content: "\e926";
+}
+.icon-share:before {
+  content: "\e927";
+}
+.icon-shorts:before {
+  content: "\e928";
+}
+.icon-spand-more-fill:before {
+  content: "\e929";
+}
+.icon-spaorts:before {
+  content: "\e92a";
+}
+.icon-star:before {
+  content: "\e92b";
+}
+.icon-stars:before {
+  content: "\e92c";
+}
+.icon-suggestions:before {
+  content: "\e92d";
+}
+.icon-suscriptions:before {
+  content: "\e92e";
+}
+.icon-video:before {
+  content: "\e92f";
+}
+.icon-video-call:before {
+  content: "\e930";
+}
+.icon-videogame:before {
+  content: "\e931";
+}
+.icon-video-list:before {
+  content: "\e932";
+}
